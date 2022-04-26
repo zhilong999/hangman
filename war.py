@@ -92,3 +92,4 @@ class Game:
 
 game = Game()
 game.play_game()
+print('0')
