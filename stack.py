@@ -19,7 +19,8 @@ class Stack:
 		return len(self.items)
 	
 stack = Stack()
-for c in "Hello":
+zifu = input("Enter a string")
+for c in zifu:
 	stack.push(c)
 	
 reverse = ""
